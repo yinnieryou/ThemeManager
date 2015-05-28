@@ -8,26 +8,35 @@ The APIs are below:
 
 extern NSString *const kThemeManagerShouldChangeTheme;
 
+
+
  *  @brief sharedManager
  *  @return instance of ThemeManager
 
 +(instancetype)sharedManager;
 
+
+
  *  @brief  name of current theme
 
 @property (nonatomic, strong) NSString *currentThemeName;
 
+
+
  *  @brief  change the theme
  *  @param themeName which theme would you like to change
  *  @param isNotify  post a notification or not
- *  
+ 
 -(void)changeTheme:(NSString *)themeName shouldNotify:(BOOL)isNotify;
+
+
 
  *  @brief  get the font from the plist file by the key
  *  @param keyOfFont keyOfFont
  *  @return UIFont
  
 -(UIFont *)fontForKey:(NSString *)keyOfFont;
+
 
 
  *  @brief  get the color by key
@@ -37,11 +46,13 @@ extern NSString *const kThemeManagerShouldChangeTheme;
 -(UIColor *)colorForKey:(NSString *)keyOfColor;
 
 
+
  *  @brief  get the image by the name of image
  *  @param nameOfImage nameOfImage
  *  @return UIImage
  
 -(UIImage *)imageForImageName:(NSString *)nameOfImage;
+
 
 If you would like to change the theme just call "changeTheme: shouldNotify:".
 
