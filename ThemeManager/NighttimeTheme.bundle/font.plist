@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ButtonFont</key>
+	<dict>
+		<key>fontSize</key>
+		<string>12</string>
+		<key>fontName</key>
+		<string></string>
+		<key>fontPath</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
