@@ -57,3 +57,5 @@ extern NSString *const kThemeManagerShouldChangeTheme;
 If you would like to change the theme just call "changeTheme: shouldNotify:".
 
 But don't forget to add your own macro into the "ThemeManagerMacro.h", and make sure your bundle files had added what you define in macro.
+
+For more information check the exmaple project.
